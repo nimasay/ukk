@@ -26,8 +26,6 @@ Route::get('/progres', \App\Http\Livewire\Progres::class);
 
 Auth::routes();
 
-
-
 Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('/karyawan', \App\Http\Livewire\Karyawan::class);
     Route::get('/paket', \App\Http\Livewire\Paket::class);

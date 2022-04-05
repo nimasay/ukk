@@ -79,6 +79,9 @@
                             <p>Sunday Closed</p>
                         </div>
                     </div>
+                    <div>
+                    <a class="btn btn-primary" href="/login" role="button">Login</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -102,26 +105,13 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <!-- Links -->
                     <ul class="navbar-nav ">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Outlet
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-                                 <a class="dropdown-item " href="index.html">
-                                    Cab Sawojajar
-                                </a>
-                                <a class="dropdown-item " href="index-2.html">
-                                    Cab Soehat
-                                </a> 
-                            </div>
-                        </li>
                         <li class="nav-item ">
-                            <a href="about.html" class="nav-link js-scroll-trigger">
-                                About
+                            <a href="#section-testimonial" class="nav-link js-scroll-trigger">
+                                About Us
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a href="service.html" class="nav-link js-scroll-trigger">
+                            <a href="#services-2" class="nav-link js-scroll-trigger">
                                 Services
                             </a>
                         </li>
@@ -225,12 +215,12 @@
                     <div class="section-heading">
                         <!-- Heading -->
                         <h2 class="section-title">
-                            Our Working process
+                            We use high quality materials
                         </h2>
 
                         <!-- Subheading -->
                         <p>
-                            Laundrette adalah pilihan terbaik karena pegawaikami melalui pelatihan profesional dan sudah berpengalaman
+                            Laundrette menggunakan bahan bahan berkualitas tinggi untuk menjaga pakaian dan laundrette menggunakan sterilisasi di masa pandemi ini.
                         </p>
 
                     </div>
@@ -242,24 +232,24 @@
                     <div class="process-block">
                         <img src="{{asset('admin/assets/welcome/front/images/process/process-1.jpg')}}" alt="" class="img-fluid">
 
-                        <h3>Dry Clean</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                        <h3>Sabun Organik</h3>
+                        <p>Karena tidak mengandung bahan deterjen maka sabun organik ini sangat aman dipakai untuk penderita alergi deterjen. Sabun organik dapat merawat kulit senitif. Sabun organik terbuat dari bahan-bahan alami, bagi yang memiliki kulit sensitif tak perlu risau. </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="process-block">
                         <img src="{{asset('admin/assets/welcome/front/images/process/process-2.jpg')}}" alt="" class="img-fluid">
 
-                        <h3>Cuci Tas & Sepatu</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                        <h3>Natural Parfume</h3>
+                        <p>Parfum natural seringkali menjadi pilihan utama bagi mereka yang memiliki kulit sensitif. Selain aman bagi kulit, parfum natural juga mempunyai banyak sekali keunggulan lainnya, seperti tidak menyebabkan mual, animal friendly, dan tidak mengandung bahan kimia berbahaya.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="process-block">
                         <img src="{{asset('admin/assets/welcome/front/images/process/process-3.jpg')}}" alt="" class="img-fluid">
 
-                        <h3>Ekspres</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                        <h3>Ultraviolet Sterilized</h3>
+                        <p>Tujuan dari sterilized ini adalah untuk membunuh mikroorganisme  dan kuman kuman yang menempel di pakaian secara seketika.</p>
                     </div>
                 </div>
             </div>
@@ -440,42 +430,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-sm-6">
-                    <div class="footer-widget">
-                        <h3>About</h3>
-                        <!-- Links -->
-                        <ul class="footer-links ">
-                            <li>
-                                <a href="#">
-                                    Services
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    About Us
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Pricing
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Products Shop
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-8">
                     <div class="footer-widget">
                         <h3>Socials</h3>
                         <!-- Links -->
